@@ -50,10 +50,12 @@ dest_dir="$(dirname "$dest")"
 mkdir -p "$dest_dir"
 
 css_rel_path="$("$realpath" "docs/css/" --relative-to "$dest_dir")"
+img_folder="$("$realpath" "docs/img/" --relative-to "$dest_dir")"
 
 pandoc \
   --katex \
   --from markdown+tex_math_single_backslash \
+  --resource-path $img_folder \
   --filter pandoc-sidenote.js \
   --to html5+smart \
   --template=template \
