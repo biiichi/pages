@@ -1,0 +1,21 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+  line-height: 1.8;
+}
+
+h1 {
+  padding-top: 32px;
+}
+
+h2 {
+  padding-top: 24px;
+}
+
+h3 {
+  padding-top: 16px;
+}
