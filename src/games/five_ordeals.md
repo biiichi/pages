@@ -1,6 +1,7 @@
 ---
 title: Wizardry外伝 五つの試練
 date: 2024-12-17
+header-includes: <link rel="icon" href="../favicon.svg" sizes="any" type="image/svg+xml">
 ---
 
 <img src="../img/fo/icon.png" style="height: 128px; width: 128px">

@@ -19,3 +19,13 @@ h2 {
 h3 {
   padding-top: 16px;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0d1117;
+  }
+
+  p {
+    color: #ddd;
+  }
+}
